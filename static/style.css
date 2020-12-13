@@ -44,6 +44,10 @@ list-style: none;
     height: 250px;
     background-color: green;
 }
+#sponsorssec h2{
+    text-align: center;
+   padding: 10px;
+}
 #footer{
     height: 250px;
     background-color:rebeccapurple;
