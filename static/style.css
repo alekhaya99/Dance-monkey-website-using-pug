@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Langar', cursive;
+}
+#navbar{
+    background-color: rgba(17, 13, 29, 0.89);
+    padding: 15px 5px;
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+#navbar li{
+list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+#introsec{
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 100%;
+    background-color: yellow;
+
+}
+#sponsorssec{
+    height: 250px;
+    background-color: green;
+}
+#footer{
+    height: 250px;
+    background-color:rebeccapurple;
+}
