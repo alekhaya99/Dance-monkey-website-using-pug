@@ -27,6 +27,7 @@ list-style: none;
 #introsec{
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: center/cover no-repeat url("/static/bg.jpg");
