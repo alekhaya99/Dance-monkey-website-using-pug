@@ -35,18 +35,43 @@ list-style: none;
     justify-content: center;
     align-items: center;
     background: center/cover no-repeat url("/static/bg.jpg");
-    height: 350px;
+    height: 500px;
     background-color: yellow;
     font-size: 2.5rem;
 
 }
 #introsec div.small{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 
+}
+#missionssec{
+    height: 450px;
+    background-color: wheat; 
+    width: 100%;
+    display: block; 
+    margin: auto;
+}
+#missionssec h2{
+    text-align: center;
+   padding: 10px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+}
+.card h3{
+    
+    text-align: center;
+    margin-top: 11px;
 }
 #sponsorssec{
     height: 250px;
-    background-color: green;
+    background-color: wheat;
 }
 #sponsorssec h2{
     text-align: center;
