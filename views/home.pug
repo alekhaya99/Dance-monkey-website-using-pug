@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/script.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#introsec
+        div Hello we are dance monkey website
+        div.small This is a website created using pug
+    section#missionssec
+        h2 Our Mission
+        div.card 
+            h3 Preserve Forest
+            div.card-box
+                div.card-img 
+                    img(src="/static/bg1.jpg") 
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, rem!
+        div.card 
+            h3 Protect the endangered species
+            div.card-box
+                div.card-img 
+                    img(src="/static/bg2.jpg") 
+                div.card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, corrupti?
+        div.card 
+            h3 Reduce pollution
+            div.card-box
+                div.card-img 
+                    img(src="/static/bg3.jpg") 
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ab?
+    section#sponsorssec
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/food1.png", alt="Food1",class='sponsorimg')
+            img(src="/static/food2.png", alt="Food1",class='sponsorimg')
+            img(src="/static/food3.png", alt="Food1",class='sponsorimg')
+            img(src="/static/food4.png", alt="Food1",class='sponsorimg')
