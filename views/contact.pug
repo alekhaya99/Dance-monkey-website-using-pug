@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/script.js')
+
+block style
+    style
+        include ../static/style.css
+        include ../static/contact.css
+
+block content
+    h1 Contact Us
+    form(action="/contact",method="post", class="MyForm")
+        input(type="text",class="myName", name="name",placeholder="Please enter the name")
+        input(type="text",class="myName", name="MonkeyId",placeholder="Please enter the MonkeyId")
+        input(type="text",class="myName", name="Contact Details",placeholder="Please enter the Phone Number")
+        input(type="text",class="myName", name="Email",placeholder="Please enter the Email")
+        input(type="text",class="myName", name="Address",placeholder="Please enter the Address")
+        input(type="text",class="myName", name="About You",placeholder="Please enter the About You")
+        button(class="button")
+            | Submit Now
