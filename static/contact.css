@@ -1,0 +1,38 @@
+
+.container{
+   min-height: 85vh;
+   margin: 12px 0;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+.MyForm{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.myName{
+    display: block;
+    width: 500px;
+    padding: 5px;
+    margin: 15px;
+    font-size: 14px;
+    border: 1px solid black ;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.button{
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    cursor:pointer;
+    margin-bottom: 100px;
+    outline: none;
+}
