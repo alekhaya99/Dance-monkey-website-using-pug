@@ -5,6 +5,11 @@
     padding: 0px;
     font-family: 'Langar', cursive;
 }
+#logo img{
+    height: 50px;
+    width: 50px;
+
+}
 #navbar{
     background-color: rgba(17, 13, 29, 0.89);
     padding: 15px 5px;
@@ -45,7 +50,7 @@ list-style: none;
 
 }
 #missionssec{
-    height: 450px;
+    height: 350px;
     background-color: wheat; 
     width: 100%;
     display: block; 
@@ -58,26 +63,66 @@ list-style: none;
 
 .card{
     border: 2px solid black;
-    border-radius: 5px;
-    margin: auto;
-    width: 25%;
-    height: 200px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
     display: inline-block;
 }
 .card h3{
     
     text-align: center;
-    margin-top: 11px;
+    margin: 0 12px;
+    margin-top: 24px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+    
 }
 #sponsorssec{
     height: 250px;
-    background-color: wheat;
+    background-color:whitesmoke;
+    margin-top: 0px;
+    justify-content: center;
 }
 #sponsorssec h2{
     text-align: center;
    padding: 10px;
 }
+#sponsors{
+    height: 195px;
+    max-width: 1000px;
+    margin-left: 350px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.sponsorimg{
+    display: inline-block;
+    height: 100%;
+    margin: 5px;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: center;
+    
+}
+
 #footer{
-    height: 250px;
+    height: 55px;
     background-color:rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+
 }
