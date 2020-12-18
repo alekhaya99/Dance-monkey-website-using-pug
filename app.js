@@ -17,7 +17,12 @@ app.set('views',path.join(__dirname,'views'));
 app.get("/",(req,res)=>{
     
     const parameters= {};
-    res.status(200).render('index.pug',parameters)
+    res.status(200).render('home.pug',parameters)
+});
+app.get("/contact",(req,res)=>{
+    
+    const parameters= {};
+    res.status(200).render('contact.pug',parameters)
 });
 
 app.listen(port,()=>{
